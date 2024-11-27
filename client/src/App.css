@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.room_join,
+.chat_room {
+  max-width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid;
+}
+
+.room_join .field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.room_join .field label {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.room_join .field input {
+  font-size: 14px;
+  padding: 3px;
+}
+
+/* chat BOX*/
+
+.chat-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.chat-footer input {
+  flex: 1 1 80%;
+  font-size: 14px;
+  padding: 3px;
+}
+
+.chat-footer svg {
+  font-size: 13px;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 7px;
+  margin-left: 8px;
+}
+
+.chat-head {
+  text-align: center;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  /* border-bottom: 1px solid; */
+}
+
+.chat-body .message {
+  padding: 2px;
+  margin-bottom: 4px;
+}
+
+.message p:first-child {
+  font-size: 14px;
+}
+
+.message p:last-child {
+  font-size: 12px;
+}
+
+.chat-body .message.me {
+  background-color: #d9ffff;
+  /* color: blue; */
+}
+
+.chat-body .message.other {
+  background-color: #d2f59b;
+  /* color: green; */
+}

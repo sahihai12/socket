@@ -1,0 +1,12 @@
+Enabling sticky-session
+To achieve sticky-session, there are two main solutions:
+    - routing clients based on a cookie (recommended solution)
+    - routing clients based on their originating address
+
+You will find below some examples with common load-balancing solutions:
+    - NginX (IP-based)
+    - Apache HTTPD (cookie-based)
+    - HAProxy (cookie-based)
+    - Traefik (cookie-based)
+    - Node.js cluster module
+
